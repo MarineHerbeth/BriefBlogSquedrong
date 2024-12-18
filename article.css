@@ -1,10 +1,50 @@
 /*position center & font setting*/
-body{
+body {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 60%;
   margin: auto;
-  font-family:Montserrat;
+  letter-spacing: 1,5px;
+  font-family: "Montserrat", serif;
+  line-height: 1.2;
+
+}
+
+/*set google font*/
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-p {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+/**setting font goup H**/
+h1{
+    color: #d05270;
+    font-size: 45px;
+    font-family: "Abril Fatface", serif;
+    margin: 40px 0;
+    letter-spacing: 2px;
+}
+
+h2{
+  font-size: 40px;
+  margin-top: -25px;
+  color: #424242;
+  font-weight: 500;
+  margin:50px 0;
+
+}
+h3{
+  margin: 50px 0;
+}
+p{
+  margin: 20px 0;
 }
 
 /**************for setting of header & nav *************************/
@@ -13,8 +53,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
-  padding: 10px 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
 }
 
 .logo img {
@@ -44,35 +83,134 @@ nav ul li a:hover {
 
 /************end of detting nav*******************/
 
-.container{
-  display: flex;
-  flex-direction: column;/*set direction verticle*/
-  width: 80%;/*set position of contents*/
-  margin: 0 auto;
-  align-content: center;/*set center for vertical*/
-  justify-content: center;/*set center for horizontal*/
-}
-
 div{
   margin: 20px 0;/*set space of each contents*/
   padding: 0;
 }
+.container{
+  display: flex;
+  flex-direction: column;/*set direction verticle*/
+  width: 70%;/*set position of contents*/
+  margin: 0 auto;
+  align-content: center;/*set center for vertical*/
+  justify-content: center;/*set center for horizontal*/
+}
+.image_top{
+  max-height: 550px;
+  max-width: auto;
+}
+/*footer{
+  display: flex;
+  flex-direction: row;
+}
+.colum{
+  display: flex;
+  flex-direction: column;
+}
+.colum div{
+  width: 50%;
+}*/
 
-/**setting font goutp H**/
-h1{
-  font-family: monospace;
-  font-size: 36;
-  margin: 20px 0;
+
+.bienvenue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-h2{
-  font-family: Abril Fatface;
-  font-size: 24;
-  margin:20px 0;
+
+.bienvenue img {
+  width: 400px;
+  margin-left: 50px;
 }
-h3{
-  font-family: Abril Fatface;
-  margin: 20px 0;
+
+.bienvenue div {
+  width: 50%;
+  margin-right: 20px;
 }
-p{
-  margin: 20px 0;
+
+
+.reseaux {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
 }
+
+.lien-button-blue {
+  color: white;
+  text-decoration: none;
+  background-color: #47acdf;
+  font-size: 10px;
+  width: 30%;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 18px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.lien-button-blue a {
+  color: white;
+  text-decoration: none;
+}
+
+.lien-button-blue img {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 5px;
+  right: 15px;
+}
+
+.lien-button-navy {
+  color: white;
+  text-decoration: none;
+  background-color: #1275b1;
+  font-size: 10px;
+  width: 30%;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 18px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.lien-button-navy a {
+  color: white;
+  text-decoration: none;
+}
+
+.lien-button-navy img {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 3px;
+  right: 15px;
+}
+
+.lien-button-black {
+  background-color: black;
+  font-size: 10px;
+  width: 30%;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 18px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.lien-button-black a {
+  color: white;
+  text-decoration: none;
+}
+
+.lien-button-black img {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 5px;
+  right: 15px;
+}
+
