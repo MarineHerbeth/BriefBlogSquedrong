@@ -1,0 +1,122 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+.logo img {
+  max-height: 150px; /* Deux fois plus grand */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #a112d1;
+}
+.bienvenue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bienvenue img {
+  width: 30%;
+}
+
+.bienvenue div {
+  width: 40%;
+  margin-right: 130px;
+}
+
+h1 {
+  color: #d05270;
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: -25px;
+}
+
+header p {
+  margin-top: -20px;
+}
+
+.lien-button-blue {
+  color: white;
+  text-decoration: none;
+  background-color: #47acdf;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 10px;
+}
+
+.lien-button-blue img {
+  height: 20px;
+  width: 20px;
+}
+
+.lien-button-navy {
+  color: white;
+  text-decoration: none;
+  background-color: #1275b1;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 10px;
+}
+
+.lien-button-black {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 10px;
+}
+
+article {
+  width: 45%;
+}
+
+article img {
+  width: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: auto;
+}
+
+h3 {
+  color
+}
