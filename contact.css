@@ -1,8 +1,8 @@
 body {
-  font-family: "Montserrat", serif;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fff;
+  background-color: #f4f4f4;
   color: #333;
   width: 60%;
   margin: auto;
@@ -27,7 +27,7 @@ header {
   align-items: center;
   background-color: #fff;
   padding: 10px 20px;
-  box-shadow: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .logo img {
@@ -175,89 +175,4 @@ footer {
   width: 50px;
   height: 50px;
   border-radius: 10%;
-}
-
-.reseaux {
-  width: 50%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 100px;
-}
-
-.lien-button-blue {
-  color: white;
-  text-decoration: none;
-  background-color: #47acdf;
-  font-size: 20px;
-  width: 20%;
-  text-align: center;
-  padding-top: 15px;
-  padding-bottom: 18px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-.lien-button-blue a {
-  color: white;
-  text-decoration: none;
-}
-
-.lien-button-blue img {
-  height: 20px;
-  width: 20px;
-  position: relative;
-  top: 5px;
-  right: 15px;
-}
-
-.lien-button-navy {
-  color: white;
-  text-decoration: none;
-  background-color: #1275b1;
-  font-size: 10px;
-  width: 20%;
-  text-align: center;
-  padding-top: 15px;
-  padding-bottom: 18px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-.lien-button-navy a {
-  color: white;
-  text-decoration: none;
-}
-
-.lien-button-navy img {
-  height: 20px;
-  width: 20px;
-  position: relative;
-  top: 3px;
-  right: 15px;
-}
-
-.lien-button-black {
-  background-color: black;
-  font-size: 10px;
-  width: 20%;
-  text-align: center;
-  padding-top: 15px;
-  padding-bottom: 18px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-.lien-button-black a {
-  color: white;
-  text-decoration: none;
-}
-
-.lien-button-black img {
-  height: 20px;
-  width: 20px;
-  position: relative;
-  top: 5px;
-  right: 15px;
 }
