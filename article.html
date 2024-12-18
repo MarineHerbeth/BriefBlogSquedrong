@@ -3,15 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="article_stylesheet" href="article.css">
+  <link rel="stylesheet" href="article.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>article</title>
 </head>
 
 <body>
-  <!--pour navigation-->
   <header>
     <div class="logo">
-      <img src="images/logo.png" alt="Logo du site"/>
+      <img src="images/logo.png" alt="Logo du site" />
     </div>
     <nav>
       <ul>
@@ -25,18 +27,15 @@
 
   <!-- for whole contents -->
  <main>
-
-    
     <!--image-->
     <div>
-      <img src="images/article_web_design.jpg" alt="img_article"  style="height: 400px;">
-
+      <img src="images/article_web_design.jpg" alt="img_article" class="image_top">
     </div>
     
     <!--for text of blog-->
     <div><!--blog1-->
       <div>
-        <h1>Les bases du design web</h1>
+        <h1 class="Rose">Les bases du design web</h1>
         <p>
           Le design web ne consiste pas seulement à rendre un site attrayant, mais à permettre aux utilisateurs d'atteindre facilement leurs objectifs. Il est essentiel de se mettre à leur place pour comprendre leurs besoins, par exemple en concevant une structure de menu intuitive et des boutons bien visibles.
           Le design web ne consiste pas seulement à rendre un site attrayant, mais à permettre aux utilisateurs d'atteindre facilement leurs objectifs. Il est essentiel de se mettre à leur place pour comprendre leurs besoins, par exemple en concevant une structure de menu intuitive et des boutons bien visibles.
@@ -84,12 +83,39 @@
       <p>
         À l'avenir, le design web continuera à évoluer, combinant innovations technologiques et créativité pour répondre aux besoins changeants des utilisateurs. Les designers devront comprendre non seulement la technologie, mais aussi les émotions et les attentes des utilisateurs.
       </p>
-
     </div>
 
-    <div><!--A_Propos-->
-
-    </div>
+    <footer><!--A_Propos-->
+      <section class="bienvenue">
+          <div>
+            <h1>A Propos de l'auteur:</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        <img src="images/illustration.png" alt="illustration blog" />
+      </section>
+      <section class="reseaux">
+        <div class="lien-button-blue">
+          <a href="">
+            <img
+              src="images/65sm8evmkcvsca4g4o8n9fhe7m-3e0a09e70a14541add2b0e8dccdf3f21.png"
+              alt="logo twitter"
+            />TWITTER
+          </a>
+        </div>
+        <div class="lien-button-navy">
+          <a href="">
+            <img src="images/pngegg.png" alt="logo linkedin" />LINKEDIN</a>
+        </div>
+        <div class="lien-button-black">
+          <a href=""> <img src="images/icons8-medium-48.png" alt="" /> MEDIUM</a>
+        </div>
+      </section>
+    </footer>
   </main> 
 
   
