@@ -4,6 +4,8 @@ body {
   padding: 0;
   background-color: #fff;
   color: #333;
+  width: 60%;
+  margin: auto;
 }
 
 .abril-fatface-regular {
@@ -29,7 +31,7 @@ header {
 }
 
 .logo img {
-  max-height: 150px; /* Deux fois plus grand */
+  max-height: 400px; /* Deux fois plus grand */
 }
 
 .header-title {
@@ -53,7 +55,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #555;
-  font-weight: bold;
+  /*font-weight: bold;*/
 }
 
 nav ul li a:hover {
