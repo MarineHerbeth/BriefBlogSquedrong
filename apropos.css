@@ -38,3 +38,49 @@ nav ul li a:hover {
 nav ul li a :visited {
   color: #a112d1;
 }
+
+.a-propos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.a-propos img {
+  width: 400px;
+  margin-left: 50px;
+  border-radius: 15px;
+}
+
+.a-propos div {
+  width: 50%;
+  margin-right: 20px;
+}
+
+h1 {
+  color: #d05270;
+  font-size: 45px;
+  font-family: "Abril Fatface", serif;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: -25px;
+  color: #424242;
+  font-weight: 500;
+}
+
+.a-propos2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+.a-propos2 img {
+  width: 400px;
+  margin-right: 50px;
+}
+
+.a-propos2 div {
+  width: 50%;
+  margin-left: 20px;
+}
