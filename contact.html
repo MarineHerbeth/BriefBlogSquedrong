@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactez-nous</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylessheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/logo.png" alt="Logo du site" />
+      </div>
+      <h1 class="header-title">Contact</h1>
+      <nav>
+        <ul>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="profile-image">
+        <img src="images/illustration.png" alt="Photo de profil" />
+      </section>
+
+      <section class="welcome-section">
+        <h1>Contactez-nous</h1>
+        <p>
+          N'hésitez pas à nous contacter pour toute question ou demande
+          d'information.
+        </p>
+      </section>
+
+      <section class="contact-section">
+        <h2>Formulaire de Contact</h2>
+        <form action="#" method="post">
+          <label for="name">Nom :</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="phone">Téléphone :</label>
+          <input type="tel" id="phone" name="phone" required />
+
+          <label for="subject">Sujet :</label>
+          <input type="text" id="subject" name="subject" required />
+
+          <label for="message">Message :</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+
+          <button type="submit">Envoyer</button>
+        </form>
+      </section>
+
+      <section class="image-section">
+        <img src="images/illustration.png" alt="Image de contact" />
+      </section>
+    </main>
+
+    <footer>
+      <div class="social-media">
+        <a href="https://www.linkedin.com" target="_blank"
+          ><img src="images/linkedin.jpg" alt="LinkedIn"
+        /></a>
+        <a href="https://www.twitter.com" target="_blank"
+          ><img src="images/Twitter.jpg" alt="Twitter"
+        /></a>
+        <a href="https://www.medium.com" target="_blank"
+          ><img src="images/medium.jpg" alt="Medium"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
