@@ -1,0 +1,78 @@
+/*position center & font setting*/
+body{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  font-family:Montserrat;
+}
+
+/**************for setting of header & nav *************************/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  max-height: 150px; /* Deux fois plus grand */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #a112d1;
+}
+
+/************end of detting nav*******************/
+
+.container{
+  display: flex;
+  flex-direction: column;/*set direction verticle*/
+  width: 80%;/*set position of contents*/
+  margin: 0 auto;
+  align-content: center;/*set center for vertical*/
+  justify-content: center;/*set center for horizontal*/
+}
+
+div{
+  margin: 20px 0;/*set space of each contents*/
+  padding: 0;
+}
+
+/**setting font goutp H**/
+h1{
+  font-family: monospace;
+  font-size: 36;
+  margin: 20px 0;
+}
+h2{
+  font-family: Abril Fatface;
+  font-size: 24;
+  margin:20px 0;
+}
+h3{
+  font-family: Abril Fatface;
+  margin: 20px 0;
+}
+p{
+  margin: 20px 0;
+}
