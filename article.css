@@ -4,39 +4,24 @@ body {
   flex-direction: column;
   width: 60%;
   margin: auto;
-  letter-spacing: 1,5px;
   font-family: "Montserrat", serif;
+  letter-spacing: 1,5px;
   line-height: 1.2;
 
 }
 
-/*set google font*/
-.abril-fatface-regular {
-  font-family: "Abril Fatface", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.montserrat-p {
-  font-family: "Montserrat", serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-}
-
 /**setting font goup H**/
 h1{
-    color: #d05270;
-    font-size: 45px;
+    /*font-size: 45px;*/
     font-family: "Abril Fatface", serif;
     margin: 40px 0;
     letter-spacing: 2px;
 }
 
 h2{
-  font-size: 40px;
+  /*font-size: 40px;
   margin-top: -25px;
-  color: #424242;
-  font-weight: 500;
+  font-weight: 500;*/
   margin:50px 0;
 
 }
@@ -46,6 +31,12 @@ h3{
 p{
   margin: 20px 0;
 }
+.rose{
+  color: #d05270;
+}
+.blue{
+  color: blue;
+}
 
 /**************for setting of header & nav *************************/
 header {
@@ -53,7 +44,8 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
-
+  font-weight: 400;
+  font-size: 15px;
 }
 
 .logo img {
@@ -74,7 +66,6 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #555;
-  font-weight: bold;
 }
 
 nav ul li a:hover {
@@ -99,19 +90,7 @@ div{
   max-height: 550px;
   max-width: auto;
 }
-/*footer{
-  display: flex;
-  flex-direction: row;
-}
-.colum{
-  display: flex;
-  flex-direction: column;
-}
-.colum div{
-  width: 50%;
-}*/
-
-
+/************for footer*******************/
 .bienvenue {
   display: flex;
   justify-content: space-between;
@@ -127,8 +106,6 @@ div{
   width: 50%;
   margin-right: 20px;
 }
-
-
 .reseaux {
   width: 50%;
   display: flex;
@@ -137,7 +114,6 @@ div{
   align-items: center;
   margin-bottom: 100px;
 }
-
 .lien-button-blue {
   color: white;
   text-decoration: none;
@@ -213,4 +189,4 @@ div{
   top: 5px;
   right: 15px;
 }
-
+/************end of setting for footer*******************/
