@@ -182,4 +182,8 @@ p {
 main {
   margin-bottom: 300px;
 }
+
+.image-top img {
+  min-width: 100%;
+}
 /************end of setting for footer*******************/
