@@ -41,12 +41,12 @@ nav ul li a :visited {
 
 .profile-image {
   position: absolute;
-  top: 80px; /* Adjust based on header height */
+  top: 20px; /* Adjust based on header height */
   right: 20px;
 }
 
 .profile-image img {
-  max-width: 400px; /* Adjust the size as needed */
+  max-width: 200px; /* Adjust the size as needed */
   height: auto;
   border-radius: 10%;
 }
@@ -67,6 +67,8 @@ main {
   margin: 0;
   font-size: 2.5em;
   font-weight: bold;
+  font-family: "Abril Fatface", serif;
+  font-size: 45px;
 }
 
 .welcome-section p {
