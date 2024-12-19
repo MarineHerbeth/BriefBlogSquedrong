@@ -7,34 +7,32 @@ body {
   font-family: "Montserrat", serif;
   letter-spacing: 1.1px;
   line-height: 1.2;
-
 }
 
 /**setting font goup H**/
-h1{
-    /*font-size: 45px;*/
-    font-family: "Abril Fatface", serif;
-    margin: 40px 0;
-    letter-spacing: 2px;
+h1 {
+  /*font-size: 45px;*/
+  font-family: "Abril Fatface", serif;
+  margin: 40px 0;
+  letter-spacing: 2px;
 }
 
-h2{
+h2 {
   /*font-size: 40px;
   margin-top: -25px;
   font-weight: 500;*/
-  margin:50px 0;
-
-}
-h3{
   margin: 50px 0;
 }
-p{
+h3 {
+  margin: 50px 0;
+}
+p {
   margin: 20px 0;
 }
-.rose{
+.rose {
   color: #d05270;
 }
-.blue{
+.blue {
   color: blue;
 }
 
@@ -49,7 +47,7 @@ header {
 }
 
 .logo img {
-  max-height: 150px; /* Deux fois plus grand */
+  max-height: 200px; /* Deux fois plus grand */
 }
 
 nav ul {
@@ -74,12 +72,12 @@ nav ul li a:hover {
 
 /************end of detting nav*******************/
 
-div{
-  margin: 20px 0;/*set space of each contents*/
+div {
+  margin: 20px 0; /*set space of each contents*/
   padding: 0;
 }
 
-.image_top{
+.image_top {
   display: block;
   margin-left: auto;
   margin-right: auto;
