@@ -48,8 +48,6 @@ nav ul li a:hover {
   max-width: 200px;
   height: auto;
   border-radius: 10%;
-
-  background: #fff(253, 252, 253, 0.5); /* Overlay noir léger */
 }
 
 main {
