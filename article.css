@@ -11,15 +11,15 @@ body {
 
 /**setting font goup H**/
 h1 {
-  /*font-size: 45px;*/
+  font-size: 45px;
   font-family: "Abril Fatface", serif;
   margin: 40px 0;
   letter-spacing: 2px;
 }
 
 h2 {
-  /*font-size: 40px;
-  margin-top: -25px;
+  font-size: 35px;
+  /*margin-top: -25px;
   font-weight: 500;*/
   margin: 50px 0;
 }
@@ -33,7 +33,7 @@ p {
   color: #d05270;
 }
 .blue {
-  color: blue;
+  color: rgb(27, 27, 164);
 }
 
 /**************for setting of header & nav *************************/
