@@ -5,8 +5,6 @@ body {
   width: 60%;
   margin: auto;
   font-family: "Montserrat", serif;
-  letter-spacing: 1.1px;
-  line-height: 1.2;
 }
 
 /**setting font goup H**/
@@ -75,6 +73,8 @@ nav ul li a:hover {
 div {
   margin: 20px 0; /*set space of each contents*/
   padding: 0;
+  letter-spacing: 1.1px;
+  line-height: 1.2;
 }
 
 .image_top {
