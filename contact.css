@@ -71,21 +71,23 @@ h1 {
 
 .welcome-section p {
   font-size: 1.5em;
+  color: #333;
 }
 
 .contact-section {
   max-width: 600px;
   margin: auto;
-  background-color: #d05270;
+  background-color: #f5f0f1;
   padding: 20px;
   border-radius: 20px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   margin-bottom: 50px;
+  border: solid #d05270 2px;
+  box-shadow: 0 0 10px #eb708d;
 }
 
 .contact-section h2 {
   color: #333;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid #f6cdcd;
   padding-bottom: 50px;
   margin-bottom: 50px;
 }
@@ -116,14 +118,14 @@ h1 {
   margin-top: 20px;
   border: none;
   border-radius: 4px;
-  background-color: #0b0b0b;
+  background-color: #d05270;
   color: #fff;
   font-size: 1em;
   cursor: pointer;
 }
 
 .contact-section button:hover {
-  background-color: #050505;
+  background-color: #c24764;
 }
 
 .image-section {
