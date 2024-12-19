@@ -40,6 +40,11 @@ nav ul li a :visited {
   color: #a112d1;
 }
 
+nav ul li a[href="index.html"] {
+  color: #a112d1;
+  font-weight: bold;
+}
+
 .bienvenue {
   display: flex;
   justify-content: space-between;

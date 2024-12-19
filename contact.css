@@ -38,6 +38,11 @@ nav ul li a:hover {
   color: #a112d1;
 }
 
+nav ul li a[href="contact.html"] {
+  color: #a112d1;
+  font-weight: bold;
+}
+
 .profile-image {
   position: absolute;
   top: 20px; /* Ajustement de la position */

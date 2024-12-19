@@ -39,6 +39,11 @@ nav ul li a :visited {
   color: #a112d1;
 }
 
+nav ul li a[href="apropos.html"] {
+  color: #a112d1;
+  font-weight: bold;
+}
+
 .a-propos {
   display: flex;
   justify-content: space-between;
