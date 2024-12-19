@@ -41,12 +41,12 @@ nav ul li a :visited {
 
 .profile-image {
   position: absolute;
-  top: 80px; /* Adjust based on header height */
+  top: 20px; /* Adjust based on header height */
   right: 20px;
 }
 
 .profile-image img {
-  max-width: 400px; /* Adjust the size as needed */
+  max-width: 200px; /* Adjust the size as needed */
   height: auto;
   border-radius: 10%;
 }
@@ -132,9 +132,9 @@ main {
 }
 
 .image-section img {
-  max-width: 10%;
+  max-width: 20%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 20px;
 }
 
 footer {
