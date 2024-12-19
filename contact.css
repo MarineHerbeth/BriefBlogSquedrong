@@ -134,9 +134,9 @@ main {
 }
 
 .image-section img {
-  max-width: 10%;
+  max-width: 20%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 20px;
 }
 
 footer {
